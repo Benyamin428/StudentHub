@@ -1,0 +1,159 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 70px;
+}
+
+h2, h3 {
+    color: #4c2c53;
+}
+
+a {
+    color: #4c2c53;
+}
+
+small {
+    color: #745b79;
+}
+
+::placeholder { 
+    color: #A597A8 !important;
+}
+
+.navbar-default {
+    border: none !important;
+    border-radius: 0px !important;
+    -webkit-box-shadow: 0px 10px 5px -4px rgba(116,91,121,0.71);
+    -moz-box-shadow: 0px 10px 5px -4px rgba(116,91,121,0.71);
+    box-shadow: 0px 10px 5px -4px rgba(116,91,121,0.71);
+}
+
+.navbar .font-color {
+    color: #fff !important;
+}
+
+.navbar .navbar-brand img {
+    width: 40px;
+    position: relative;
+    top: -8px;
+}
+
+.navbar-default .navbar-toggle {
+    transition: background-color 0.5s ease;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background: #4c2c53 !important;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background: #fff !important;
+}
+
+.btn-primary {
+    background: #745b79 !important;
+    border: none;
+    transition: background-color 0.5s ease;
+}
+
+.btn-primary:hover {
+    background: #7f99a0 !important;
+}
+
+.btn-link {
+    color: #A597A8;
+}
+
+.jumbotron {
+    background: #4c2c53 !important;
+    color: #F7FFF6 !important;
+}
+
+.jumbotron .btn {
+    border: none;
+}
+
+.jumbotron .btn-purple {
+    background: #745b79;
+}
+
+.jumbotron .btn-blue {
+    background: #7f99a0;
+    transition: background-color 0.5s ease;
+}
+
+.jumbotron .btn-blue:hover {
+    background: #745b79;
+}
+
+.well {
+    background: rgba(76, 44, 83, 0.3) !important;
+}
+
+.form {
+    padding-top: 40px;
+}
+
+.posts {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.post {
+    background: rgba(76, 44, 83, 0.3);
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(76,44,83,0.8), 0 1px 2px rgba(76,44,83,0.7);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    margin-top: 10px;
+}
+
+.panel, .panel-heading {
+    background:#4c2c53 !important;
+    color: #fff !important;
+}
+
+.panel input {
+    border-radius: 6px;
+    padding: 15px;
+}
+
+.list-group {
+    overflow-y: scroll;
+    height: 300px;
+}
+
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+    background: #4c2c53;
+    border-color: #4c2c53;
+}
+
+.dashboard h3 {
+    color: #fff !important;
+}
+
+.dashboard tr {
+    background: #fff !important;
+    color: #000 !important;
+}
+
+.dashboard td {
+    color: #000 !important;
+}
+
+#time {
+    font-size: 10px;
+    color: #000;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #7f99a0;
+    color: #fff !important;
+}
